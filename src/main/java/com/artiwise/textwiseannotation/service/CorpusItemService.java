@@ -86,7 +86,7 @@ public class CorpusItemService {
 
     }
 
-    @Path("/update/annotations")
+    @Path("/update/annotation")
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response updateCorpusItemAnnotations(@FormParam("id") String id, List<CorpusItemAnnotation> corpusItemAnnotations){
